@@ -97,4 +97,10 @@ $ git flow hotfix start [HOTFIX] //문제가 생겨 즉각 내용을 수정해�
 $ git flow hotfix finish [VERSION] //문제를 해결하고 긴급패로를 준비한다. > develop과 master에 merge된다.
 ```
 
+# gir branch
+
+```
+$ git branch -D [Branch-name] //git branch 삭제 (d => 삭제 d=>강제삭제)
+```
+
 모든 배포는 master 브랜치로만 이루어 진다.
